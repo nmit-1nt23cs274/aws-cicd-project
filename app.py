@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "AWS CI/CD Pipeline Running Successfully!"
+    return "CI/CD Trigger Test Successful!"
 
 if __name__ == '__main__':
     app.run()
